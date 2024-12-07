@@ -6,4 +6,4 @@ Pillow
 transformers
 torch
 requests
-openai
+openai==0.28
