@@ -1,5 +1,5 @@
 streamlit
-faiss-gpu
+faiss-cpu
 numpy
 pandas
 Pillow
