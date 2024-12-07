@@ -1,11 +1,9 @@
 streamlit
 faiss-cpu
-transformers
-torch
 numpy
 pandas
 Pillow
+transformers
+torch
 requests
 openai
-python-dotenv
-
