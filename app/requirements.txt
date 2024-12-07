@@ -1,0 +1,11 @@
+streamlit
+faiss-cpu
+transformers
+torch
+numpy
+pandas
+Pillow
+requests
+openai
+python-dotenv
+
