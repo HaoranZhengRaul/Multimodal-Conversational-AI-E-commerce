@@ -198,7 +198,7 @@ if st.button("Search"):
             st.markdown(f"Category: {row['Category_Cleaned']}")
             st.markdown(f"Price: {row['Selling Price_Cleaned']}")
             st.markdown(f"[Product Link]({row['Product Url']})")
-            st.image(row['Image'], caption=row['Product Name_Cleaned'], use_column_width=True)
+            st.image(row['Image'], caption=row['Product Name_Cleaned'], use_container_width=True)
 
         # Generate GPT-4 response
         gpt_response = generate_response_gpt4(query or "image-based query", retrieved_items)
